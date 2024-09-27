@@ -13,6 +13,12 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutKeithCastorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutColleenActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
